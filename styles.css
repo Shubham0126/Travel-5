@@ -32,6 +32,15 @@ body{
     background-color: #ffce10!important;
     border-color: #ffce10!important;
 }
+.btn-outline-primary{
+    color: #ffce10!important;
+    border-color: #ffce10!important;
+}
+.btn-outline-primary:hover{
+    color: white!important;
+    border-color: #ffce10!important;
+    background-color: #ffce10;
+}
 .carousel-item img{
     filter: brightness(60%);
 }
