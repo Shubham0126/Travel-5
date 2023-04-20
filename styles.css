@@ -2,6 +2,7 @@ body{
     padding: 0;
     margin: 0;
     background-color: #DAF5FF;
+    line-height: 1.6rem;
     font-family: 'Poppins', sans-serif;
 }
 /* .color-palleate{
@@ -16,12 +17,21 @@ body{
     color: white;
 }
 .navbar-nav a:hover{
-    color: #FEFF86;
+    color: #ffce10;
 }
 .active{
-    color: #FEFF86!important;
+    color: #ffce10!important;
 }
-
+.text-primary{
+    color: #ffce10!important;
+}
+.bg-primary{
+    background-color: #ffce10!important;
+}
+.btn-primary{
+    background-color: #ffce10!important;
+    border-color: #ffce10!important;
+}
 .carousel-item img{
     filter: brightness(60%);
 }
@@ -48,6 +58,10 @@ body{
 }
 .service p{
     text-align: justify;
+}
+
+.contact{
+    background-color: #B0DAFF;
 }
 
 .service-1:hover{
@@ -80,6 +94,12 @@ body{
     right: 45px;
     bottom: 45px;
     z-index: 11;
+  }
+
+  .page-header{
+    background: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)) , url('Img/Carousel-1.webp') no-repeat center center;
+    background-size: cover;
+    
   }
 
   @media (max-width: 1000px) {
