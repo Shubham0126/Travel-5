@@ -16,7 +16,7 @@ body{
     margin: 0px 20px;
     color: white;
 }
-.navbar-nav a:hover{
+.nav-link:hover{
     color: #ffce10;
 }
 .active{
@@ -138,6 +138,7 @@ body{
     .carousel-caption p{
         width: 60%;
         font-size: 0.7rem;
+        line-height: 1rem;
     }
     
   }
@@ -158,6 +159,16 @@ body{
     .carousel-caption p{
         width: 60%;
         font-size: 0.4rem;
+    }
+    
+  }
+  @media (max-width: 290px) {
+    .carousel-caption h1{
+        font-size: 0.5rem;
+    }
+    .carousel-caption p{
+        width: 60%;
+        font-size: 0.25rem;
     }
     
   }
