@@ -18,9 +18,16 @@ $('#back-to-top').click(function(){
 });
 
 
-$(document).ready(function () {
 
-  $('#exampleModal').modal('show');
+var delay = 3000;
+setTimeout(function() {
+  $(document).ready(function () {
 
-});
+    $('#exampleModal').modal('show');
+  
+  });
+  setTimeout(function() {
+    $('.btn-close').css({'display':'block'});
+   }, delay);
+}, delay);
 (jQuery);

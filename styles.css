@@ -126,7 +126,11 @@ body{
 
 
   .modal-content{
-    background-color: #B9E9FC!important;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('Img/popup.webp') no-repeat center center!important;
+    background-size: cover;
+  }
+  .btn-close{
+    display: none;
   }
 
   @media (max-width: 1000px) {
