@@ -17,4 +17,10 @@ $('#back-to-top').click(function(){
   return false;
 });
 
+
+$(document).ready(function () {
+
+  $('#exampleModal').modal('show');
+
+});
 (jQuery);

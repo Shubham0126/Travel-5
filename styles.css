@@ -124,6 +124,11 @@ body{
     background-color: #ffce10!important;
   }
 
+
+  .modal-content{
+    background-color: #B9E9FC!important;
+  }
+
   @media (max-width: 1000px) {
     .carousel-caption h1{
         font-size: 2.5rem;
